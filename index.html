@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Page</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">  <title>Checkout page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="heading">
+            <img src="NotMilkco.svg" alt="NotMilkco">
+          </div>
+        </nav>
+      </header>
+
+  <div class="container-fluid">
+  <h1>Checkout details</h1>
+  <div class="row">
+<div class="col-75">
+  <div class="container">
+      <form action="#">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Delivery Address</h3>
+            <p><label for="f-name" class="texto"><b>S Wooters St, Los Angeles, C...</b></label></p>
+            <hr class="line" >
+            <h3>Delivery</h3>
+            <p><label for="f-name" class="texto"><b>Express (1 - 2 bussiness days)</b></label></p>
+            <hr class="line">
+          </div>
+        </div>
+          
+        <div class="col-50">
+
+            <h2>Payment Method</h2>
+            <p><label for="description" class="texto">Enter your payment details below</label></p>
+            <div class="check">
+                 <h3><input type="radio" clas="check">Credit or debit card details</h3>
+            </div>
+            <label for="cname">Card Name</label>
+            <input type="text" name="caname" id="cname" placeholder="Enter Card Name">
+
+            <label class="cno">Card Number</label>
+            <div class="input-container">
+                <i class="fa-solid fa-credit-card"></i>
+                <input class="input-field" type="text" placeholder="Enter Card No" name="cardno">
+            </div>
+
+            <div class="rowb">
+              <div class="caja">
+                <label for="exyear">Expiration date</label>
+                <input type="text" name="exyear" id="exyear" placeholder="MM / YY">
+              </div>
+              <div class="col-50 caja">
+                <label for="cvv">Security Code</label>
+                <input type="text" name="cvv" id="cvv" placeholder="CVV">
+              </div>
+            </div>
+          </div>
+
+          <div class="check">
+            <h3><input type="radio" clas="check">PayPal</h3>
+          </div>
+      </form>
+    </div>
+</div>
+<div class="col-25">
+  <div class="containerb">
+    <p><b>Order value</b><span class="price"> $108.03</span></p>
+    <p><b>Discont</b><span class="prices"><b> - $13.00</b></span></p>
+    <p><b>Shipping</b><span class="price"> $5.00</span></p>
+    <hr>
+    <p class="bold"><b>Total</b><span class="pricet"> $99.03</span></p> 
+  </div>
+  <input type="submit" value="Pay $99.03" class="pay">  
+
+</div>
+  </div>
+</body>
+</html>

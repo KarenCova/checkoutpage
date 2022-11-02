@@ -1,0 +1,230 @@
+body {
+    font-size: 17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid, h1 {
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 8%;
+}
+
+nav {
+    position:relative;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
+    height: 100px;
+  }
+
+.heading {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+h1 {
+    padding: auto;
+}
+.col-25 {
+    flex: 25%;
+    padding: 0 16px;
+}
+
+.col-50 {
+    flex: 20%;
+    padding: 0 16px;
+}
+
+.col-75 {
+    flex: 60%;
+    padding: 0 16px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 16px;
+
+}
+
+.caja {
+    padding: 0 -16px ;
+    padding-right: 0px;
+    display: table-cell;
+    padding-bottom: 20px;
+}
+
+.container {
+    padding: 5px 20px 15px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 18px;
+    width: 100%;
+}
+
+.containerb {
+    padding: 15px 23px 15px 23px;
+    background: #FAFAFA;
+    border-radius: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 12px;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+}
+
+input[type=radio]{
+    height: 18px;
+    width: 18px;
+}
+
+.cno {
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+    color: #706D6D;
+    font-style: normal;
+}
+
+.texto {
+    color: #706D6D;
+    font-style: normal;
+    padding-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 0px;
+}
+
+.line {
+    border: 1px solid #E6E6E6;
+}
+
+.btn {
+    background-color: #000000;
+    color: #fff;
+    padding: 12px;
+    margin: 25px 0;
+    border: none;
+    width: 100%;
+    border-radius: 11px;
+    cursor: pointer;
+    font-size: 22px; 
+}
+
+.btn:hover {
+    background-color: #24d4cc;
+}
+
+
+hr {
+    border: 1px solid #E4E4E4;}
+
+.price {
+    float: right;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.prices {
+    float: right;
+    color: #FF0000;
+}
+
+.bold {
+    font-size: 24px;
+}
+
+.pricet {
+    float: right;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 25px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    padding-top: 10px;
+    margin-top: 0px;
+}
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+.fa-credit-card {
+    padding: 10px;
+    color: #706D6D;
+    min-width: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+.input-field {
+  width: 100%;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+ 
+.form-inline {
+    display: inline-block;
+}
+
+.pay {
+    background: #000000;
+    color:#FFFFFF;
+    border: none;
+    font-size: 22px;
+    border-radius: 11px;
+    padding: 12px;
+    margin-top: 20pxs;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .row {
+        flex-direction: column-reverse;    
+    }
+    body {
+        font-size: 15px;
+    }
+    .col-25 {
+        margin-bottom: 20px;
+        display: inline; 
+    }
+}
